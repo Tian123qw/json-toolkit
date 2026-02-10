@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="bg-gray-950 text-gray-100 antialiased min-h-screen flex flex-col overflow-hidden">
+      <body className="bg-gray-950 text-gray-100 antialiased min-h-screen flex flex-col">
         <Navbar />
-        <main className="flex-1 overflow-auto">{children}</main>
+        <main className="flex-1">{children}</main>
       </body>
     </html>
   );
