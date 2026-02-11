@@ -88,33 +88,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SEO Content */}
-      <section className="border-t border-gray-800 bg-gray-900/30">
-        <div className="mx-auto max-w-4xl px-4 py-12">
-          <h2 className="mb-4 text-xl font-semibold text-gray-300">
-            Why JSON Toolkit?
-          </h2>
-          <div className="grid gap-6 text-sm text-gray-500 leading-relaxed sm:grid-cols-2">
-            <div>
-              <h3 className="mb-1 font-medium text-gray-400">🚀 Fast & Free</h3>
-              <p>All tools run entirely in your browser. No data is sent to any server. No sign-up, no limits.</p>
-            </div>
-            <div>
-              <h3 className="mb-1 font-medium text-gray-400">🔒 Private & Secure</h3>
-              <p>Your JSON never leaves your browser. Everything is processed client-side using JavaScript.</p>
-            </div>
-            <div>
-              <h3 className="mb-1 font-medium text-gray-400">📱 Works Everywhere</h3>
-              <p>Responsive design that works on desktop, tablet, and mobile. No app download needed.</p>
-            </div>
-            <div>
-              <h3 className="mb-1 font-medium text-gray-400">🛠️ Developer Friendly</h3>
-              <p>Clean interface with keyboard shortcuts, error highlighting, and instant results.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </div>
   );
